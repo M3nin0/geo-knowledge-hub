@@ -7,8 +7,8 @@ theme = WebpackThemeBundle(
     themes={
         "semantic-ui": dict(
             entry={
-                "invenio-app-rdm-deposit-gkhub": './js/multiform/index.js',
-                "invenio-app-rdm-user-records-search-gkhub": "./js/user_records_search/index.js"
+                "invenio-app-rdm-deposit-gkhub": './js/gkhext/multiform/index.js',
+                "invenio-app-rdm-user-records-search-gkhub": "./js/gkhext/user_records_search/index.js"
             },
             dependencies={
                 "@babel/runtime": "^7.9.0",

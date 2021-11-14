@@ -7,6 +7,7 @@
 # details.
 
 """GEO Knowledge Hub extension for InvenioRDM"""
+
 from .security.policies import GeoRecordPermissionPolicy
 from .security.permissions import views_permissions_factory
 
@@ -28,6 +29,9 @@ GEO_KNOWLEDGE_HUB_EXT_INFORMATION_REQUIRED_IN_METADATA_BY_SCHEME = {
     }
 }
 """Default values to load from metadata by scheme type."""
+
+GEO_KNOWLEDGE_HUB_EXT_DEFAULT_MAIL_RECEIVER = "gkhub@geosec.org"
+"""Flask-Mail Default Email receiver."""
 
 RDM_PERMISSION_POLICY = GeoRecordPermissionPolicy
 """Policy settings."""

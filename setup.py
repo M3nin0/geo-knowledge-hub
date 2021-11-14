@@ -36,7 +36,9 @@ install_requires = [
     'invenio-i18n>=1.2.0',
     'Flask-Discussion>=0.1.1,<0.2',
     'pydash>=5.1.0',
-    'IDUtils>=1.1.9'
+    'IDUtils>=1.1.9',
+    'Flask-WTF>=0.15.1,<1',
+    'WTForms>=2.3.3,<2.4'
 ]
 
 packages = find_packages()

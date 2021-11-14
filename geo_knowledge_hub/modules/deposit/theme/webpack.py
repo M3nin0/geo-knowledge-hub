@@ -11,7 +11,7 @@ from invenio_assets.webpack import WebpackThemeBundle
 
 theme = WebpackThemeBundle(
     __name__,
-    "theme/assets",
+    "assets",
     default="semantic-ui",
     themes={
         "semantic-ui": dict(

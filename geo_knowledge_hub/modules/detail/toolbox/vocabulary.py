@@ -67,7 +67,9 @@ def get_engagement_priority_from_record(record: Record, ep_vocabularies: List = 
                 py_.get(engagement_priorities_topics, "hits.hits", []),
                 lambda x: py_.set_(
                     x, "props.icon", url_for("static", filename=x["props"]["icon"])
-                ),
+                )
+                if py_.get(x, "props.icon") != ""
+                else x,
             ),
         )
     return result

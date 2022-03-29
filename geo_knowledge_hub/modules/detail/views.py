@@ -69,13 +69,51 @@ def geo_record_detail(record=None, files=None, pid_value=None, is_preview=False)
 
     # Removing all engagement priorities from the record
     # temporary solution: in the future, we will remove this!
-    record_subjects = (
+    def _get_subject_metadata(subject, subjects_metadata):
+        for subject_metadata in subjects_metadata:
+            if "id" in subject and subject["id"] == subject_metadata["id"]:
+                subject["scheme"] = py_.get(subject_metadata, "props.scheme")
+        return subject
+
+    _engage_ids_without_icon = (
+        py_.chain(related_engagement_priorities)
+        .filter(lambda x: py_.get(x, "props.icon") == "")
+        .map(lambda x: x["id"])
+    ).value()
+
+    record_subjects, geo_subjects = (
         py_.chain(record_ui)
         .get("metadata.subjects")
-        .filter(lambda x: x.get("scheme") != "EP")
+        .filter(
+            lambda x: (
+                "scheme" in x and x["scheme"] not in engagement_priorities_scheme
+            )
+            or (
+                "scheme" in x
+                and x["scheme"] == "EP"
+                and x["id"] in _engage_ids_without_icon
+            )
+            or ("scheme" not in x)
+        )
+        .map(lambda x: _get_subject_metadata(x, related_engagement_priorities))
+        .partition(
+            lambda x: "id" not in x or ("id" in x and "geo" not in x["id"].lower())
+        )
     ).value()
 
     record_ui = py_.set(record_ui, "metadata.subjects", record_subjects)
+
+    # preparing the geo subjects
+    def _style_fnc(x):
+        name = x["subject"][x["subject"].find("(") + 1 : x["subject"].find(")")]
+        # styling the name
+        if "-" in name:
+            prefix, project = name.split("-")
+
+            name = " ".join([prefix.upper(), project.title()])
+        return name
+
+    geo_subjects = py_.map(geo_subjects, _style_fnc)
 
     return render_template(
         "geo_knowledge_hub/records/detail.html",
@@ -85,6 +123,7 @@ def geo_record_detail(record=None, files=None, pid_value=None, is_preview=False)
         is_draft=record_is_draft,
         is_preview=is_preview,
         related_identifiers=related_identifiers,
+        geo_subjects=geo_subjects,
         user_stories=user_stories,
         related_records_informations=related_records_informations,
         related_engagement_priorities=related_engagement_priorities,

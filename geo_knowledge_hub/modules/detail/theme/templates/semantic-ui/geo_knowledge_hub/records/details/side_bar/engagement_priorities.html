@@ -5,8 +5,7 @@
     it under the terms of the MIT License; see LICENSE file for more details.
 #}
   
-{% if related_engagement_priorities %}
-
+{% if (related_engagement_priorities | selectattr("props.icon", "!=", "") | list) %}
   <input 
     id="record-engagements" 
     type="hidden" 

@@ -20,9 +20,11 @@ const recordEngagements = getInputFromDOM("record-engagements");
 // Sorting the values
 const natsorter = natsort({ insensitive: true });
 
-const recordEngagementSorted = recordEngagements.sort((a, b) =>
-  natsorter(a.id, b.id)
-);
+const recordEngagementSorted = recordEngagements
+  .sort((a, b) => natsorter(a.id, b.id))
+  .filter((x) => x.props.icon !== "");
+
+console.log(recordEngagementSorted)
 
 // Rendering!
 ReactDOM.render(

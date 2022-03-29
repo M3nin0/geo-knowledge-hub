@@ -30,21 +30,25 @@
   {%- endfor %}
 
   {%- for scheme, subjects in subjects|selectattr("scheme")|groupby('scheme')|sort(attribute='scheme') %}
-  {% if scheme != "TU" %}
+  {% if scheme == "EP" %}
+  <dl class="details-list subjects" aria-label="{{ _('Engagement Priorities') }}">
+    <dt class="ui tiny header">Engagement Priorities</dt>
+  {% else %}
+  {# is assumed that this will be subjects #}
   <dl class="details-list subjects" aria-label="{{ _('Subjects') }}">
     <dt class="ui tiny header">{{scheme}}</dt>
-    {%- for subject in subjects %}
+  {%- endif -%}
+  {%- for subject in subjects %}
     <dd>
-      <a href='/search?q=metadata.subjects.subject:"{{ subject.subject }}"'
-         class="subject"
-         title="{{ _('Search results for ') + subject.subject }}"
-      >
-        {{ subject.subject }}
-      </a>
-    </dd>
+        <a href='/search?q=metadata.subjects.subject:"{{ subject.subject }}"'
+          class="subject"
+          title="{{ _('Search results for ') + subject.subject }}"
+        >
+          {{ subject.subject }}
+        </a>
+      </dd>
     {%- endfor %}
   </dl>
-  {%- endif -%}
   {%- endfor %}
 
   {% set keywords = subjects|rejectattr("scheme")|list %}

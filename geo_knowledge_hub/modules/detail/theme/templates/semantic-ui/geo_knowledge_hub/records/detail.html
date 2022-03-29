@@ -154,6 +154,11 @@
                       <span class="label text-muted"> | {{ _('Version {version_number}').format(version_number=record.ui.version) }}</span>
                     </div>
                     <div class="right floated right aligned column">
+                      {% if geo_subjects %}
+                      {%- for geo_subject in geo_subjects %}
+                      <span class="ui label small teal" title="{{ _('GEO Work Programme') }}">{{geo_subject}}</span>
+                      {%- endfor -%}
+                      {% endif %}
                       {% if record.ui.resource_type %}
                         <span class="ui label small grey" title="{{ _('Resource type') }}">{{ record.ui.resource_type.title_l10n }}</span>
                       {% endif %}

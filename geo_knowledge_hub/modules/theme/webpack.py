@@ -50,7 +50,7 @@ theme = WebpackThemeBundle(
                 "styled-components": "^5.3.5",
                 "react-share": "^4.4.0",
                 "@geo/geo-deposit-react": "0.2.0",
-                "@geo/geo-components-react": "0.2.1",
+                "@geo/geo-components-react": "0.2.0",
                 "@geo/react-invenio-deposit": "b-1.0",
                 "@geo/geo-metadata-previewer-react": "0.1.0-alpha"
             },

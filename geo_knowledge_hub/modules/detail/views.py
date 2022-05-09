@@ -87,6 +87,10 @@ def geo_record_detail(record=None, files=None, pid_value=None, is_preview=False)
 
     # End - Temporary block
 
+    # test to create a table of related resources
+    import json
+    print(json.dumps(related_records_informations))
+
     return render_template(
         "geo_knowledge_hub/records/detail.html",
         pid=pid_value,

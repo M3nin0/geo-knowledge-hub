@@ -9,7 +9,7 @@
 import React from "react";
 import { createStore } from "redux";
 
-import knowledgePackageReducer from "./lib/state/reducers";
+import knowledgePackageReducer from "./depositlib/state/reducers";
 
 // simple context
 export const geoGlobalContext = React.createContext({});

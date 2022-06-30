@@ -17,7 +17,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+geo_knowledge_hub/theme/assets/semantic-ui/js/geo_knowledge_hub_deposit/deposit_form/depositlib/
 lib64/
 parts/
 sdist/

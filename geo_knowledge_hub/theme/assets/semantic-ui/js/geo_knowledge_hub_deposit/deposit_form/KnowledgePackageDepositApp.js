@@ -12,9 +12,9 @@ import React, {Component, createRef} from "react";
 
 import {Container} from "semantic-ui-react";
 
-import {GlobalDndContext} from "./lib/DNDGlobalContextHandler";
-import {DepositConfigHandler} from "./lib/DepositConfigHandler";
-import {LibraryVocabularyHandler} from "./lib/LibraryVocabularyHandler";
+import {GlobalDndContext} from "./depositlib/DNDGlobalContextHandler";
+import {DepositConfigHandler} from "./depositlib/DepositConfigHandler";
+import {LibraryVocabularyHandler} from "./depositlib/LibraryVocabularyHandler";
 
 import {
   DepositStep,
@@ -24,9 +24,9 @@ import {
   PublicationsForm,
   KnowledgePackageForm,
   KnowledgeResourceForm
-} from './lib';
+} from './depositlib';
 
-import {KNOWLEDGE_PACKAGE} from "./lib/resources/types";
+import {KNOWLEDGE_PACKAGE} from "./depositlib/resources/types";
 import {geoGlobalContext, geoGlobalStore} from "./configStore";
 
 import "react-semantic-toasts/styles/react-semantic-alert.css";

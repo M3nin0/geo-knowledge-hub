@@ -14,8 +14,9 @@ FROM inveniosoftware/centos8-python:3.8
 ENV NODE_OPTIONS="--max-old-space-size=8192"
 
 #
-# Base Dependencies
+# Dependencies
 #
+COPY site ./site
 COPY Pipfile Pipfile.lock ./
 RUN pipenv install --deploy --system --pre
 
@@ -29,11 +30,6 @@ COPY ./app_data/ ${INVENIO_INSTANCE_PATH}/app_data/
 COPY ./ .
 
 #
-# Installing the GEO Knowledge Hub package
-#
-RUN pip install .
-
-#
 # Building the InvenioRDM based application
 #
 RUN cp -r ./static/. ${INVENIO_INSTANCE_PATH}/static/ && \
@@ -41,7 +37,6 @@ RUN cp -r ./static/. ${INVENIO_INSTANCE_PATH}/static/ && \
     invenio collect --verbose  && \
     invenio webpack create && \
     invenio webpack install --unsafe && \
-    invenio webpack build && \
-    pip install ipython_genutils
+    invenio webpack build
 
 ENTRYPOINT [ "bash", "-c" ]

@@ -18,6 +18,7 @@ import {
   EngagementCarousel,
   ConventionsCarousel,
   FocusAreasCarousel,
+  EssentialVariablesCarousel
 } from "@geo-knowledge-hub/geo-components-react";
 
 import { i18next } from "@translations/invenio_app_rdm/i18next";
@@ -37,6 +38,9 @@ const focusAreasDiv = document.getElementById("focusAreasSearchOptions");
 const engagementsDiv = document.getElementById("engagementsSearchOptions");
 const conventionsDiv = document.getElementById(
   "engagementsConventionSearchOptions",
+);
+const essentialVariablesDiv = document.getElementById(
+  "essentialVariablesSearchOptions",
 );
 
 const latestRecordsDiv = document.getElementById("latestRecordsSearchOptions");
@@ -140,6 +144,17 @@ if (conventionsDiv) {
     </QueryClientProvider>,
     conventionsDiv,
   );
+}
+
+if (essentialVariablesDiv) {
+  ReactDOM.render(
+    <QueryClientProvider client={persistentQueryClient}>
+      <div className={"carousel-wrapper"}>
+        <EssentialVariablesCarousel filterUrl={essentialVariablesDiv.dataset.searchConfig} />
+      </div>
+    </QueryClientProvider>,
+    essentialVariablesDiv
+  )
 }
 
 if (latestRecordsDiv) {

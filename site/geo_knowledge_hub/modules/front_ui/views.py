@@ -20,6 +20,7 @@ def load_config():
     carousel_focus_config = load_from_config("GKH_CAROUSEL_FOCUS_URL")
     carousel_engagement_config = load_from_config("GKH_CAROUSEL_ENGAGEMENTS_URL")
     carousel_conventions_config = load_from_config("GKH_CAROUSEL_CONVENTIONS_URL")
+    carousel_ev_config = load_from_config("GKH_CAROUSEL_EV_URL")
 
     list_latest_records_url = load_from_config("GKH_LATEST_RECORDS_URL")
     list_latest_records_more_url = load_from_config("GKH_LATEST_RECORDS_MORE_URL")
@@ -31,6 +32,7 @@ def load_config():
         carousel_focus_config=carousel_focus_config,
         carousel_engagement_config=carousel_engagement_config,
         carousel_conventions_config=carousel_conventions_config,
+        carousel_ev_config=carousel_ev_config,
         list_latest_records_config=json.dumps(
             {"url": list_latest_records_url, "url_more": list_latest_records_more_url}
         ),

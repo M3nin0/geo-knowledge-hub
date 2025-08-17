@@ -1,3 +1,664 @@
+- id: ev-cv-precipitation
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/precipitation.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/precipitation
+  title:
+    en: 'Essential Climate Variable: Precipitation'
+- id: ev-cv-surface-pressure
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/surface_pressure.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/surface-pressure
+  title:
+    en: 'Essential Climate Variable: Surface Pressure'
+- id: ev-cv-surface-radiation-budget
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/surface_radiation_budget.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/surface-radiation-budget
+  title:
+    en: 'Essential Climate Variable: Surface Radiation Budget'
+- id: ev-cv-surface-temperature
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/surface_temperature.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/surface-temperature
+  title:
+    en: 'Essential Climate Variable: Surface Temperature'
+- id: ev-cv-surface-water-vapour
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/surface_and_upperair_water_vapour.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/surface-water-vapour
+  title:
+    en: 'Essential Climate Variable: Surface Water Vapour'
+- id: ev-cv-surface-wind-speed-and-direction
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/surface_wind_speed.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/surface-wind-speed-and-direction
+  title:
+    en: 'Essential Climate Variable: Surface Wind Speed and Direction'
+- id: ev-cv-upper-air-temperature
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/upperair_temperature.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/upper-air-temperature
+  title:
+    en: 'Essential Climate Variable: Upper-air Temperature'
+- id: ev-cv-earth-radiation-budget
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/earth_radiation_budget.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/earth-radiation-budget
+  title:
+    en: 'Essential Climate Variable: Earth Radiation Budget'
+- id: ev-cv-lightning
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/lightning.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/lightning
+  title:
+    en: 'Essential Climate Variable: Lightning'
+- id: ev-cv-upper-air-water-vapour
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/upperair_water_vapour.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/upper-air-water-vapour
+  title:
+    en: 'Essential Climate Variable: Upper-air Water Vapour'
+- id: ev-cv-upper-air-wind-speed-and-direction
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/upperair_windspeed.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/upper-air-wind-speed-and-direction
+  title:
+    en: 'Essential Climate Variable: Upper-air Wind Speed and Direction'
+- id: ev-cv-clouds
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/clouds.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/clouds
+  title:
+    en: 'Essential Climate Variable: Clouds'
+- id: ev-cv-aerosols
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/aerosol.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/aerosols
+  title:
+    en: 'Essential Climate Variable: Aerosols'
+- id: ev-cv-carbon-dioxide-methane-other-greenhouse-gases
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/greenhouse_gases.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/carbon-dioxide-methane-other-greenhouse-gases
+  title:
+    en: 'Essential Climate Variable: Carbon Dioxide, Methane & Other Greenhouse Gases'
+- id: ev-cv-ozone
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/ozone.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/ozone
+  title:
+    en: 'Essential Climate Variable: Ozone'
+- id: ev-cv-precursors-for-aerosols-and-ozone
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/precursors.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/precursors-aerosols-and-ozone
+  title:
+    en: 'Essential Climate Variable: Precursors for Aerosols and Ozone'
+- id: ev-cv-groundwater
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/groundwater.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/groundwater
+  title:
+    en: 'Essential Climate Variable: Groundwater'
+- id: ev-cv-lakes
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/lakes.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/lakes
+  title:
+    en: 'Essential Climate Variable: Lakes'
+- id: ev-cv-river-discharge
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/river_discharge.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/river-discharge
+  title:
+    en: 'Essential Climate Variable: River Discharge'
+- id: ev-cv-terrestrial-water-storage-tws
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/ecv_terrestrial_water_storage.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/terrestrial-water-storage-tws
+  title:
+    en: 'Essential Climate Variable: Terrestrial Water Storage (TWS)'
+- id: ev-cv-evaporation-from-land
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/evaporation_from_land.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/evaporation-from-land
+  title:
+    en: 'Essential Climate Variable: Evaporation from Land'
+- id: ev-cv-soil-moisture
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/soil_moisture.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/soil-moisture
+  title:
+    en: 'Essential Climate Variable: Soil Moisture'
+- id: ev-cv-glaciers
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/glaciers.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/glaciers
+  title:
+    en: 'Essential Climate Variable: Glaciers'
+- id: ev-cv-ice-sheets-and-ice-shelves
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/ice_sheets_and_ice_shelves.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/ice-sheets-and-ice-shelves
+  title:
+    en: 'Essential Climate Variable: Ice Sheets and Ice Shelves'
+- id: ev-cv-permafrost
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/permafrost.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/permafrost
+  title:
+    en: 'Essential Climate Variable: Permafrost'
+- id: ev-cv-snow
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/snow.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/snow
+  title:
+    en: 'Essential Climate Variable: Snow'
+- id: ev-cv-above-ground-biomass
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/above_ground_biomass.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/above-ground-biomass
+  title:
+    en: 'Essential Climate Variable: Above-ground Biomass'
+- id: ev-cv-albedo
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/albedo.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/albedo
+  title:
+    en: 'Essential Climate Variable: Albedo'
+- id: ev-cv-fire
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/fire.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/fire
+  title:
+    en: 'Essential Climate Variable: Fire'
+- id: ev-cv-fraction-of-absorbed-photosynthetically-active-radiation-fapar
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/fapar.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/fraction-of-absorbed-photosynthetically-active-radiation-fapar
+  title:
+    en: 'Essential Climate Variable: Fraction of Absorbed Photosynthetically Active
+      Radiation (FAPAR)'
+- id: ev-cv-land-cover
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/landcover.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/land-cover
+  title:
+    en: 'Essential Climate Variable: Land Cover'
+- id: ev-cv-land-surface-temperature
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/land_surface_temperature.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/land-surface-temperature
+  title:
+    en: 'Essential Climate Variable: Land Surface Temperature'
+- id: ev-cv-leaf-area-index
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/leaf_area_index.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/leaf-area-index
+  title:
+    en: 'Essential Climate Variable: Leaf Area Index'
+- id: ev-cv-soil-carbon
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/soil_carbon.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/soil-carbon
+  title:
+    en: 'Essential Climate Variable: Soil Carbon'
+- id: ev-cv-anthropogenic-greenhouse-gas-emissions
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/anthropogenic_ghg_fluxes.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/anthropogenic-greenhouse-gas-emissions
+  title:
+    en: 'Essential Climate Variable: Anthropogenic Greenhouse Gas Emissions'
+- id: ev-cv-anthropogenic-water-use
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/anthropogenic_water_use.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/anthropogenic-water-use
+  title:
+    en: 'Essential Climate Variable: Anthropogenic Water Use'
+- id: ev-cv-ocean-surface-heat-flux
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/ocean_surface_heat_flux.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/ocean-surface-heat-flux
+  title:
+    en: 'Essential Climate Variable: Ocean Surface Heat Flux'
+- id: ev-cv-sea-ice
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/sea_ice.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/sea-ice
+  title:
+    en: 'Essential Climate Variable: Sea Ice'
+- id: ev-cv-sea-level
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/sea_level.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/sea-level
+  title:
+    en: 'Essential Climate Variable: Sea Level'
+- id: ev-cv-sea-state
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/sea_state.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/sea-state
+  title:
+    en: 'Essential Climate Variable: Sea State'
+- id: ev-cv-surface-currents
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/sea_surface_currents.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/surface-currents
+  title:
+    en: 'Essential Climate Variable: Surface Currents'
+- id: ev-cv-sea-surface-salinity
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/sea_surface_salinity.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/sea-surface-salinity
+  title:
+    en: 'Essential Climate Variable: Sea Surface Salinity'
+- id: ev-cv-surface-stress
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/sea_surface_stress.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/surface-stress
+  title:
+    en: 'Essential Climate Variable: Surface Stress'
+- id: ev-cv-sea-surface-temperature
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/sea_surface_temperature.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/sea-surface-temperature
+  title:
+    en: 'Essential Climate Variable: Sea Surface Temperature'
+- id: ev-cv-subsurface-currents
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/subsurface_currents.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/subsurface-currents
+  title:
+    en: 'Essential Climate Variable: Subsurface Currents'
+- id: ev-cv-subsurface-salinity
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/subsurface_salinity.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/subsurface-salinity
+  title:
+    en: 'Essential Climate Variable: Subsurface Salinity'
+- id: ev-cv-subsurface-temperature
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/subsurface_temperature.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/subsurface-temperature
+  title:
+    en: 'Essential Climate Variable: Subsurface Temperature'
+- id: ev-cv-inorganic-carbon
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/inorganic_carbon.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/inorganic-carbon
+  title:
+    en: 'Essential Climate Variable: Inorganic Carbon'
+- id: ev-cv-nitrous-oxide
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/nitrous_oxide.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/nitrous-oxide
+  title:
+    en: 'Essential Climate Variable: Nitrous Oxide'
+- id: ev-cv-nutrients
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/nutrients.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/nutrients
+  title:
+    en: 'Essential Climate Variable: Nutrients'
+- id: ev-cv-ocean-colour
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/ocean_colour.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/ocean-colour
+  title:
+    en: 'Essential Climate Variable: Ocean Colour'
+- id: ev-cv-oxygen
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/oxygen.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/oxygen
+  title:
+    en: 'Essential Climate Variable: Oxygen'
+- id: ev-cv-transient-tracers
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/transient_tracers.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/transient-tracers
+  title:
+    en: 'Essential Climate Variable: Transient Tracers'
+- id: ev-cv-marine-habitats
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/marine_habitat.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/marine-habitats
+  title:
+    en: 'Essential Climate Variable: Marine Habitats'
+- id: ev-cv-plankton
+  props:
+    description_long: ''
+    description_short: ''
+    engagement_type: essential-variable
+    has_subtype: 'false'
+    icon: images/labels/essential-variables/climate-variables/plankton.png
+    is_subtype: 'false'
+    type: essential-variables
+    uri: https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/plankton
+  title:
+    en: 'Essential Climate Variable: Plankton'
 - id: convention-on-biological-diversity
   props:
     type: convention-on-biological-diversity
